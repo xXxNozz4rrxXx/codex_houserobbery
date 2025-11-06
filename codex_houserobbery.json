@@ -1,0 +1,8 @@
+{
+  "script": "Codex House Robbery",
+  "version": "2.1",
+  "changelog": [
+    "🐛 Optimized and cleaned up redundant code across core and module handlers",
+  ]
+}
+

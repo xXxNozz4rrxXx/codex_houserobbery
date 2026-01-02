@@ -1,11 +1,8 @@
 {
   "script": "Codex House Robbery",
-  "version": "2.5",
+  "version": "2.6",
   "changelog": [
-    "✨ Added per-loot-spot drop chance system using configurable `Chance` values (e.g. 10%, 25%, 50%)",
-    "🧪 Improved DevMode logging with formatted ^2[DevMode]^0 : ^3message^0 output and detailed loot debug info (roll, chance, reward, amount, and prop cleanup)",
-    "🎛️ Redesigned noise bar UI to a cleaner gradient bar with a Font Awesome warning icon that dynamically follows the fill percentage",
-    "📏 Added `DeveloperLID` (Codex Loot Index Distance) option to print the live distance between the player and each loot spot when DeveloperMode is enabled",
-    "📡 Added `VersionNextUpdate` toggle to track live updates and actions for debugging (not recommended to enable on live/online production servers)"
+    "✨ Added CheckSeason to the config file (for RSG users, we recommend setting this to false)",
+    "✨ Cleaned up some server- and client-side lines for better performance"
   ]
 }

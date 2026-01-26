@@ -1,7 +1,8 @@
 {
   "script": "Codex House Robbery",
-  "version": "2.6",
+  "version": "2.7",
   "changelog": [
+    "✨ Added Locales system you can easy put your own languages",
     "✨ Added CheckSeason to the config file (for RSG users, we recommend setting this to false)",
     "✨ Cleaned up some server- and client-side lines for better performance"
   ]

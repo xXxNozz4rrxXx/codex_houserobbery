@@ -1,9 +1,13 @@
 {
   "script": "Codex House Robbery",
-  "version": "2.7",
+  "version": "2.8",
   "changelog": [
-    "✨ Added Locales system you can easy put your own languages",
-    "✨ Added CheckSeason to the config file (for RSG users, we recommend setting this to false)",
-    "✨ Cleaned up some server- and client-side lines for better performance"
+    "✨ Improved noise system to properly build and decay over time",
+    "✨ Fixed issue where noise bar could reach 100% without triggering NPC or police reactions",
+    "✨ Added separate noise thresholds for NPC wake-up and police alerts",
+    "✨ NPCs now correctly wake up, stop sleeping animations, and react aggressively to loud noise",
+    "✨ Improved synchronization between Lua noise logic and NUI progress bar",
+    "✨ Prevented repeated police alerts by adding proper reaction flags",
+    "✨ Minor performance optimizations in client-side threads"
   ]
 }

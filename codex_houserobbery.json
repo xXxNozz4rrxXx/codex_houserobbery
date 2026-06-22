@@ -1,26 +1,13 @@
 {
   "script": "Codex House Robbery",
-  "version": "3.0",
+  "version": "3.2",
   "changelog": [
-    "➕ Added configurable security scaling for each robbery level",
-    "➕ Added support for multiple indoor guard spawn locations per house",
-    "➕ Added support for configurable outside guard spawn locations",
-    "➕ Added proximity-based outside guard spawning before entering the house",
-    "➕ Added configurable outside guard spawn, aggro, and despawn distances",
-    "➕ Added configurable guard stats including health, accuracy, weapon, shoot rate, and reaction thresholds",
-    "➕ Added configurable noise wake-up threshold so guards react to loud robberies",
-    "🔧 Fixed the sound bar so it now decreases when the player does not make any noise",
-    "🔧 Outside guards now properly guard the house exterior before entry",
-    "🔧 Outside guards now use the same aggressive combat behavior as inside guards",
-    "🔧 Improved higher robbery levels with more dangerous and better scaled guards",
-    "🔧 Fixed issue where outside guards could respawn after being killed before entry",
-    "🔧 Fixed multiple runtime errors caused by ped natives",
-    "🔧 Improved exterior NPC spawning to prevent invisible or broken guards",
-    "🔧 Added better cleanup and reset handling for robbery guard states",
-    "🔧 Added support for house-specific guard position setups for better robbery variety",
-    "🔧 Improved overall robbery flow so exterior and interior guard systems work together more reliably",
-    "🔧 Fixed outside guard combat behavior where NPCs could aim at the player without properly attacking",
-    "🔧 Fixed outside guard spawn timing issues related to robbery interior/exterior transitions",
-    "🔧 Improved guard combat setup compatibility across different runtime environments"
+    "🔧 Fixed robbery missions not starting when both CheckForMoney and CheckForItem are disabled",
+    "🔧 Fixed issue where selecting a robbery level closed the menu without creating the route, blip, or waypoint",
+    "🔧 Fixed mission start logic so robberies now start correctly with money check only, item check only, both checks, or no checks",
+    "🔧 Fixed broken item requirement callback variable that prevented item-check mode from working correctly",
+    "🔧 Fixed incorrect extra callback argument in the item-check flow",
+    "🔧 Fixed server notification events that were missing the target player source",
+    "🔧 Fixed item count variables being global instead of local to prevent unwanted state conflicts"
   ]
 }
